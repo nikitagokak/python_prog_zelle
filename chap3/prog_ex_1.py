@@ -7,5 +7,5 @@ print(radius)
 volume = 4 / 3 * math.pi * (radius ** 3)
 print("Volume =", volume)
 # surface area = 4 * PI * square of radius
-surface_area = 4 * math.pi * (radius ** 2)
+surface_area = 4 * math.pi * (radius * radius)
 print("Surface area =", surface_area)
